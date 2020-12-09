@@ -92,8 +92,8 @@ a {
 	background-position: left center;
 	background-size: contain;
 	background-repeat: no-repeat;
-	padding-left: 50px;
-	font-size: 40px;
+	padding-left: 25px;
+	font-size: 20px;
 }
 
 .main-header {
@@ -114,6 +114,13 @@ a {
 .list {
 	padding-left: 200px;
 	font-size: 18px;
+}
+
+li {
+    color: #2f1ce4; /* Цвет маркеров */
+}
+li span {
+    color: black; /* Цвет текста */
 }
 
 p {
@@ -151,4 +158,8 @@ th {
 
 .table_header {
 	text-align: center;
+}
+
+.table_footer {
+	color:#2f1ce4;
 }
